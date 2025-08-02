@@ -95,9 +95,9 @@ Bound to Python via `ctypes`.
 ## Example Output
 
 ```
-Python runtime: 0.000057 sec
-C++ runtime:   0.828905 sec
-Sharpe Ratio: -0.51
+Python runtime: 0.000080 sec
+C++ runtime:   0.000949 sec
+Sharpe Ratio: 0.46
 ```
 
 ![Example Plot](./docs/example_plot.png)
@@ -151,7 +151,5 @@ python src/analyze.py
 ---
 
 ## Notes
-
-* The negative Sharpe ratio (-0.51) observed in testing highlights how the simple moving average crossover can underperform in trending markets.
 * This project demonstrates the **workflow of designing, testing, and evaluating** a trading strategy — not necessarily producing a profitable one.
 
